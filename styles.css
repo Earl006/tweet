@@ -1,0 +1,155 @@
+#body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+nav{
+    background-color: #1874c0;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.details{
+    background-color: #f4f4f4;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.search p{
+    margin-right: 10px;
+}
+.cover-image img{
+    width: 100%;
+    height: 30vh;
+}
+.profile-image img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-top: -50px;
+    
+}
+.chats{
+    display: flex;
+    justify-content: space-between;
+}
+.posts{
+    width:50%;
+}
+.post{
+    display: flex;
+    flex-direction: column; 
+    align-items: start; 
+    padding: 20px;
+    margin: 10px;
+    width: auto;
+}
+.post-header {
+    display: flex; 
+}
+.post img{ 
+    width: 30%;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.post h2{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.post p{
+    font-size: 14px;
+    color: #777;
+}
+.post button{
+    background: #1874c0;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.post button:hover{
+    background: #13568f;
+}
+.comments{
+    width: 50%;
+    margin: 10px;
+}
+.comment{
+    display: flex;
+    flex-direction: column; 
+    align-items: start; 
+    padding: 20px;
+    margin: 10px;
+    width: auto;
+}
+.comment p{
+    font-size: 14px;
+    color: #777;
+}
+.comment button{
+    background: #1874c0;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.comment button:hover{
+    background: #13568f;
+}
+.comment img{
+    width: 30%;
+    height: 80px;
+    border-radius: 50%;
+    
+}
+.comm{
+    background-color: #fff;
+}
+.hr{
+    width:100%;
+    background:hsl(233,14%,35%);
+    height:1px;
+}
+.post-footer{
+    padding: 0%;
+}
+.post-footer img{
+    width:10%;
+    height:90%; 
+
+}
+.post-footer div{
+    display: flex;
+    margin-right:0%;
+}
+.post-footer{
+    display: flex;
+}
+.nav img{
+    width: 30%;
+    height:20%;
+}
+/* responsiveness */
+@media screen and (max-width: 768px){
+    .chats{
+        flex-direction: column;
+    }
+    .posts{
+        width: 100%;
+    }
+    .comments{
+        width: 100%;
+    }
+}
